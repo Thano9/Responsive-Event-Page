@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Black'), local('Averta-Black'),
+        url('Averta-Black.woff2') format('woff2'),
+        url('Averta-Black.woff') format('woff'),
+        url('Averta-Black.svg#Averta-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta Extrathin';
+    src: local('Averta Extrathin Italic'), local('Averta-ExtrathinItalic'),
+        url('Averta-ExtrathinItalic.woff2') format('woff2'),
+        url('Averta-ExtrathinItalic.woff') format('woff'),
+        url('Averta-ExtrathinItalic.svg#Averta-ExtrathinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Bold Italic'), local('Averta-BoldItalic'),
+        url('Averta-BoldItalic.woff2') format('woff2'),
+        url('Averta-BoldItalic.woff') format('woff'),
+        url('Averta-BoldItalic.svg#Averta-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Semibold Italic'), local('Averta-SemiboldItalic'),
+        url('Averta-SemiboldItalic.woff2') format('woff2'),
+        url('Averta-SemiboldItalic.woff') format('woff'),
+        url('Averta-SemiboldItalic.svg#Averta-SemiboldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta Extrathin';
+    src: local('Averta Extrathin'), local('Averta-Extrathin'),
+        url('Averta-Extrathin.woff2') format('woff2'),
+        url('Averta-Extrathin.woff') format('woff'),
+        url('Averta-Extrathin.svg#Averta-Extrathin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Light'), local('Averta-Light'),
+        url('Averta-Light.woff2') format('woff2'),
+        url('Averta-Light.woff') format('woff'),
+        url('Averta-Light.svg#Averta-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Bold'), local('Averta-Bold'),
+        url('Averta-Bold.woff2') format('woff2'),
+        url('Averta-Bold.woff') format('woff'),
+        url('Averta-Bold.svg#Averta-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Semibold'), local('Averta-Semibold'),
+        url('Averta-Semibold.woff2') format('woff2'),
+        url('Averta-Semibold.woff') format('woff'),
+        url('Averta-Semibold.svg#Averta-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta ExtraBold'), local('Averta-ExtraBold'),
+        url('Averta-ExtraBold.woff2') format('woff2'),
+        url('Averta-ExtraBold.woff') format('woff'),
+        url('Averta-ExtraBold.svg#Averta-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Light Italic'), local('Averta-LightItalic'),
+        url('Averta-LightItalic.woff2') format('woff2'),
+        url('Averta-LightItalic.woff') format('woff'),
+        url('Averta-LightItalic.svg#Averta-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Black Italic'), local('Averta-BlackItalic'),
+        url('Averta-BlackItalic.woff2') format('woff2'),
+        url('Averta-BlackItalic.woff') format('woff'),
+        url('Averta-BlackItalic.svg#Averta-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta ExtraBold Italic'), local('Averta-ExtraBoldItalic'),
+        url('Averta-ExtraBoldItalic.woff2') format('woff2'),
+        url('Averta-ExtraBoldItalic.woff') format('woff'),
+        url('Averta-ExtraBoldItalic.svg#Averta-ExtraBoldItalic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Thin'), local('Averta-Thin'),
+        url('Averta-Thin.woff2') format('woff2'),
+        url('Averta-Thin.woff') format('woff'),
+        url('Averta-Thin.svg#Averta-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Regular Italic'), local('Averta-RegularItalic'),
+        url('Averta-RegularItalic.woff2') format('woff2'),
+        url('Averta-RegularItalic.woff') format('woff'),
+        url('Averta-RegularItalic.svg#Averta-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Thin Italic'), local('Averta-ThinItalic'),
+        url('Averta-ThinItalic.woff2') format('woff2'),
+        url('Averta-ThinItalic.woff') format('woff'),
+        url('Averta-ThinItalic.svg#Averta-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Averta';
+    src: local('Averta Regular'), local('Averta-Regular'),
+        url('Averta-Regular.woff2') format('woff2'),
+        url('Averta-Regular.woff') format('woff'),
+        url('Averta-Regular.svg#Averta-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0"> 
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+    <link rel="icon" href="Ico/Icon.png" type="image/png">
+    <title>Annual Photo Meetup - Tom's Cameras</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        
+            
+            <header>
+                <ul class="head" >
+                    <li><h4>Brought to you by</h4>
+                    <li><h3>Tom's Camera Store</h3></li>
+                    <li><h1>Annual Photo Meetup</h1></li>
+                    <li><h2>October 28, Toronto<br>6PM</h2></li>
+                    <li><a href="#"><button type="button">Buy Tickets</button></a></li>
+                </ul>
+                <img id="downarrow" src="Images/down-arrow.svg">
+            </header>
+            
+            <ul class="highlights">
+                <div class="centerfix">
+                <li class="section1">
+                    <h5>Film Workshop</h5>
+                    <h6>Taught by Jimmy Roger</h6>
+                </li>
+                <li class="section2">
+                    <h5>Guest Photographers</h5>
+                    <h6>Wildlife, Portrait, Wedding</h6>
+                </li>
+                <li class="section3">
+                    <h5>Giveaways</h5>
+                    <h6>Enter to win a Nikon Z7!</h6>
+                </li>
+                    </div>
+            </ul> 
+            <div class="grid">
+            <article class="about">
+                <div class="title"><h7>About</h7></div>
+                <p>The goal of this project is to create a responsive event site for Tom’s camera store. They are a photography store based in downtown Toronto, specializing in digital cameras, film development, and printing your photographs.</p>
+            </article>
+            
+            <article class="information">
+                <div class="title"><h7>Additional Information</h7></div>
+                <ul class="informationList">
+                    <li><strong>Location:</strong> 215 Queen St. West</li>
+                    <li><strong>Time:</strong> 6PM-10PM</li>
+                    <li><strong>What to bring:</strong> Camera, Lenses, avoid big and heavy equipment</li>
+                    <li><strong>Weather:</strong> This event will go on whether it's rain or shine</li>
+                </ul>
+            </article>
+            
+            <article class="speakers">
+                <div class="title"><h7>Guest Speakers</h7></div>
+                <div class="speakerColumns">
+                    <div class="speakerInfo">
+                        <div class="speakerText">
+                            <strong>Bobby Smith</strong>
+                            <br>
+                            <a href="#">www.bobsmith.com</a>
+                        </div>
+                        <a href="#" class="circleLink"><div class="circle speakerPicture1"></div></a>
+                    </div>
+                
+                    <div class="speakerInfo">
+                        <div class="speakerText">
+                            <strong>Jane Buridge</strong>
+                            <br>
+                            <a href="#">www.burdigej.ca</a>
+                        </div>
+                        <a href="#" class="circleLink"><div class="circle speakerPicture2"></div></a>
+                    </div>
+                
+                    <div class="speakerInfo">
+                        <div class="speakerText">
+                            <strong>Kyle Landar</strong>
+                            <br>
+                            <a href="#">www.klphotos.com</a>
+                        </div>
+                        <a href="#" class="circleLink"><div class="circle speakerPicture3"></div></a>
+                    </div>  
+                </div>
+            </article>
+            
+            <article class="photography">
+                <div class="title"><h7>Last Years Photos</h7></div>
+                <div class="photographyGallery">
+                    <div class="item"><img class="galleryImage" src="Images/Photography/_DSC3814-Edit.jpg"/></div>
+                    <div class="item"><img class="galleryImage" src="Images/Photography/_DSF8201-Edit.jpg"/></div>
+                    <div class="item"><img class="galleryImage" src="Images/Photography/_DSF1076_2.jpg"/></div>
+                    <div class="item"><img class="galleryImage" src="Images/Photography/_DSF1476-Edit.jpg"/></div>
+                </div>
+            </article>
+        </div>
+            <article class="contact">
+                <div class="title"><h7>Have Questions?</h7></div>
+                <p><strong>Phone:</strong> <a href="#">905-468-2623</a></p>
+                <p><strong>Email:</strong> <a href="#">contact@tomphoto.ca</a></p>
+            </article>
+        
+            <footer>
+                 <a href="#"><i class="fab fa-instagram fa-lg iconProperties"></i></a>
+                 <a href="#"><i class="fab fa-facebook-square fa-lg iconProperties"></i></a>
+                 <a href="#"><i class="fab fa-twitter fa-lg iconProperties"></i></a>
+            </footer>
+    </div>
+    
+    <script>
+        if (document.documentElement.clientWidth <= 800) {
+            window.sr = ScrollReveal({
+                reset: false
+            });
+            sr.reveal('article', {
+                mobile: true,
+                duration: 800,
+                opacity: 0.4,
+                scale: 0.9,
+                viewFactor: 0.6,
+            });
+        }
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="Script/slickconfig.js"></script>
+</body>
+</html>
